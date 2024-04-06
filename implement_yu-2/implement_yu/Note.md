@@ -1,0 +1,4 @@
+this submission is the implement of my teammate, using Henry's submission as the standard.
+vgg_mnistprepped.py or main_yu.py is same as main.ipynb, it is for runing in hpc with gpu. the should use Interactive Session which have 2 GPUS. Them module load gcc/6.3.0 and python/3.8.x in virtual environment. Then "install pip3 install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html --user", and run by python3 command.
+main_yu.ipynb also same as main.ipynb, but it add the carbon emission, and running time. 
+these files must under src final...zip file
